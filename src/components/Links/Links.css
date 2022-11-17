@@ -1,0 +1,26 @@
+.links-infos {
+  display: flex;
+  flex-direction: column;
+  background: #3d3b2f;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 1.25rem;
+  margin-bottom: 2rem;
+  padding-block: 2rem;
+}
+
+.link {
+  text-decoration: none;
+  color: #9f9a7e;
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.link + a {
+  margin-top: 1.25rem;
+}
+
+.link span {
+  margin-inline: 1.25rem;
+  font-size: 0.8rem;
+}

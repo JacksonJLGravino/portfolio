@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  padding: 2.5rem;
+  justify-content: space-between;
+}
+
+.my-projects {
+  margin-right: 4rem;
+}
+
+.list-projects {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 1.25rem;
+  justify-content: space-between;
+  max-width: 59.5rem;
+  align-items: center;
+}
+
+.animation {
+  opacity: 0;
+  animation: appear 0.3s forwards;
+}
+
+@media (max-width: 700px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .infos {
+    display: none;
+  }
+
+  .my-projects {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 701px) {
+  .infos-mobile {
+    display: none;
+  }
+}
+
+@keyframes appear {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

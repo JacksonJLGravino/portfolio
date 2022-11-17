@@ -1,0 +1,42 @@
+.education-infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #3d3b2f;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 1.25rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1.5rem;
+}
+
+.education-infos h3 {
+  margin-top: 2rem;
+  color: #9f9a7e;
+  font-size: 1.5rem;
+}
+
+.education {
+  margin-left: 2rem;
+  color: #9f9a7e;
+  margin-top: 1.5rem;
+}
+
+.education li {
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.education li p {
+  font-weight: 300;
+}
+
+.certificado {
+  margin-bottom: 1rem;
+}
+
+.certificado > a{
+  margin-bottom: 1rem;
+  color: #9f9a7e;
+  text-decoration: none;
+}

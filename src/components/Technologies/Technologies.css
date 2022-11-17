@@ -1,0 +1,43 @@
+.technologies-infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #3d3b2f;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 1.25rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+
+.technologies-infos h3 {
+  padding-inline: 1.25rem;
+  margin-top: 2rem;
+  color: #9f9a7e;
+  font-size: 1.5rem;
+}
+
+.grup-tech {
+  display: flex;
+  align-items: center;
+  margin-right: 0.9375rem;
+  margin-left: 1.875rem;
+  flex-wrap: wrap;
+}
+
+.info-tech {
+  background: #e7d579;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.5rem;
+  width: 5.375rem;
+  border-radius: 30px;
+  margin-right: 0.9375rem;
+  margin-top: 0.9375rem;
+}
+
+.info-tech p {
+  font-size: 0.625rem;
+  font-weight: 700;
+  text-align: center;
+}
