@@ -1,7 +1,7 @@
 .project-header {
   align-items: center;
   justify-content: center;
-  background: #3d3b2f;
+  background: #0F2C57;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 1.25rem;
   padding: 2rem;
@@ -11,5 +11,5 @@
 
 .project-header h2{
   font-size: 1.5rem;
-  color: #9F9A7E;
+  color: #f5f5f5;
 }
