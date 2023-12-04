@@ -13,7 +13,7 @@ export function ProfileInfo({menuVisible, onClick}) {
       <img src='https://avatars.githubusercontent.com/u/103889584?v=4' alt="" />
       <div>
         <p className='name'>Jackson Gravino</p>
-        <p className='occupation'>Front End</p>
+        <p className='occupation'>Full Stack</p>
       </div>
 
       {visible ? 

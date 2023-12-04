@@ -5,10 +5,18 @@ export function Education() {
     <div className='education-infos'>
       <h3>Graduação</h3>
       <ul className='education'>
-        <li>Engenharia elétrica - DOCTUM <p>2017-2022</p></li>
+        <li>Engenharia elétrica - DOCTUM <p>2017-2021</p></li>
       </ul>
       <h3>Cursos</h3>
       <ul className='education'>
+
+      <li className='certificado'>
+          <a 
+            href="https://app.rocketseat.com.br/certificates/461cfaa5-a405-4b45-99b7-ad3ef193b226" 
+            target='_blank'>
+            Explorer - Rocketseat <p>Dezembro 2023</p></a>
+        </li>
+
         <li className='certificado'>
           <a 
             href="https://drive.google.com/file/d/1Z8LLI5iegpP0IkZUY9VJq-11AYSPyTua/view" 
@@ -99,13 +107,6 @@ export function Education() {
             target='_blank'>
             JavaScript Completo - Danki Code <p>Novembro 2022</p></a>
         </li>
-
-
-
-
-
-
-
 
       </ul>
     </div>
