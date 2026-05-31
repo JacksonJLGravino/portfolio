@@ -1,0 +1,58 @@
+.habilidades-section {
+  background: var(--bg);
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.skill-category {
+  background: var(--surface);
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  flex: 1;
+  min-width: 220px;
+  border-top: 3px solid var(--primary);
+}
+
+.skill-category h3 {
+  color: var(--secondary);
+  margin-bottom: 16px;
+  font-family: 'Syne', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-list span {
+  background-color: rgba(37, 99, 235, 0.08);
+  color: var(--primary);
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid rgba(37, 99, 235, 0.2);
+  transition: background 0.2s, color 0.2s;
+  cursor: default;
+}
+
+.skill-list span:hover {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .skills-container {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
