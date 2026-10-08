@@ -7,7 +7,16 @@ const skillCategories = [
   },
   {
     title: "Back-end (Foco atual)",
-    skills: ["Node.js", "TypeScript", "Express", "MongoDB", "MySQL", "Python"],
+    skills: [
+      "Node.js",
+      "TypeScript",
+      "Express",
+      "MongoDB",
+      "MySQL",
+      "Postgres",
+      "Prisma",
+      "Docker",
+    ],
   },
   {
     title: "Dados & Outros",
